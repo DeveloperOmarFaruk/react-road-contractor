@@ -1,0 +1,14 @@
+.display-container {
+  background-color: #d4ac0d;
+  padding: 20px 0px 20px 0px;
+  width: 85%;
+  margin: auto;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.contractor-card-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

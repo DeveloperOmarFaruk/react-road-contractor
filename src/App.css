@@ -1,0 +1,31 @@
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.component-container {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("https://img.freepik.com/premium-photo/new-asphalt-road-construction-road-workers-construction-machinery-construction-site_763336-653.jpg");
+  background-size: 105vw auto;
+  background-position: 0% 0%;
+  height: 578.5vh;
+  width: 100%;
+  animation: horizontalMove 50s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes horizontalMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 20%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

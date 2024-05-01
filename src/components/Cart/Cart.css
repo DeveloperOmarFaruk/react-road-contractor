@@ -1,0 +1,43 @@
+.contractor-cart {
+  padding: 10px;
+  background-color: #f1c40f;
+  margin: 15px 15px 10px 0px;
+  border-radius: 10px;
+  width: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 4px 4px 7px #7d6608;
+  border: 1px solid #7d6608;
+}
+
+.contractor-cart h4 {
+  text-align: center;
+  border-bottom: 1px solid #212f3c;
+  padding-bottom: 10px;
+}
+
+.my-cart-added-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  justify-items: center;
+  padding: 10px 10px 5px 10px;
+  background-color: #b7950b;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.my-cart-added-row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.my-cart-added-row p {
+  font-size: 15px;
+  margin: 20px;
+  font-weight: 900;
+}
